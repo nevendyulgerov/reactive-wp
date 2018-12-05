@@ -1,6 +1,6 @@
 # Reactive WP
 
-Headless WordPress theme, with React-driven front-end
+Headless WordPress theme, with decoupled React-driven front-end
 
 ## Requirements
 * WordPress
