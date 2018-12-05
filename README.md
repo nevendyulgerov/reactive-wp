@@ -1,6 +1,6 @@
 # Reactive WP
 
-Headless WordPress Progressive Web App
+Headless WordPress theme, with React-driven front-end
 
 ## Requirements
 * WordPress
