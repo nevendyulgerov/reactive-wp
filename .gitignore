@@ -1,0 +1,7 @@
+node_modules
+.idea
+config.yml
+.git
+.DS_Store
+prepros-6.config
+theme.lock

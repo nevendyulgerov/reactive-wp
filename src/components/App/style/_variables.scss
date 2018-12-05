@@ -1,0 +1,115 @@
+/**
+ * Global variables
+ */
+
+/// @type Font
+/// Primary Font
+$primary-font: 'Montserrat', serif;
+
+/// @type Font
+/// Secondary Font
+$secondary-font: 'Crimson Text', serif;
+
+
+/// @type Width
+/// Max Width
+$max-width: 1440px;
+
+
+/// @type Screen width
+/// Screen XXS
+$screen-xxs: 360px !default;
+
+/// @type Screen width
+/// Screen XS
+$screen-xs: 480px !default;
+
+/// @type Screen width
+/// Screen SM
+$screen-sm: 768px !default;
+
+/// @type Screen width
+/// Screen MD
+$screen-md: 992px !default;
+
+/// @type Screen width
+/// Screen LG
+$screen-lg: 1200px !default;
+
+/// @type Screen width
+/// Screen LG
+$screen-xl: 1420px !default;
+
+
+/// @type Box Shadow
+/// Shadow Depth 0
+$shadow-depth-0: 0 1px 1px 0 rgba(0,0,0,0.08),0 1px 1px 0 rgba(239,239,239,0.02);
+
+// @type Box Shadow
+/// Shadow Depth 1
+$shadow-depth-1: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+// @type Box Shadow
+/// Shadow Depth 2
+$shadow-depth-2: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+// @type Box Shadow
+/// Shadow Depth 3
+$shadow-depth-3: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+/// @type Text Shadow
+/// Text Shadow 0
+$text-shadow-0: 2px 1px 1px rgba(0,0,0,0.5);
+
+/// @type Text Shadow
+/// Text Shadow 1
+$text-shadow-1: 1px 0 0 rgba(0,0,0,0.5);
+
+
+/// @type Generic Color
+/// White
+$white: #fff !default;
+
+/// @type Generic Color
+/// Black
+$black: #000 !default;
+
+/// $type Color Group
+/// Light and Lighter Grey
+$light-grey: #e4e7ef !default;
+$lighter-grey: #f0f2f7 !default;
+
+/// $type Color Group
+/// Grey and Dark Grey
+$grey: #b9bed1 !default;
+$dark-grey: #a1a6bb !default;
+
+/// $type Color Group
+/// Dark and Darker Blue
+$dark-blue: #3a405b !default;
+$darker-blue: #222328 !default;
+
+/// $type Color Group
+/// Blue and Deep Grey
+$blue: #3b55e6 !default;
+$deep-blue: #334cd5 !default;
+
+/// $type Color Group
+/// Aqua and Dark Aqua
+$aqua: #51dde9 !default;
+$dark-aqua: #32cdda !default;
+
+/// $type Color Group
+/// Green and Darker Green
+$green: #4be1ab !default;
+$dark-green: #43d29e !default;
+
+/// $type Color Group
+/// Red and Dark Red
+$red: #fe5339 !default;
+$dark-red: #eb4e36 !default;
+
+/// $type Color Group
+/// Yellow and Dark Yellow
+$yellow: #f3d351 !default;
+$dark-yellow: #e8c63b !default;

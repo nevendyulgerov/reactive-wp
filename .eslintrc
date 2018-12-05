@@ -1,0 +1,125 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest/globals": true,
+    "jquery": true
+  },
+  "rules": {
+    "indent": [
+      "warn",
+      2,
+      {"SwitchCase": 1}
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 150
+      }
+    ],
+    "react/jsx-indent": [
+      "warn",
+      2
+    ],
+    "arrow-parens": [
+      "off"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "compat/compat": "error",
+    "consistent-return": "off",
+    "comma-dangle": "off",
+    "flowtype-errors/show-errors": "off",
+    "generator-star-spacing": "off",
+    "import/no-unresolved": "error",
+    "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-console": "off",
+    "no-use-before-define": "off",
+    "no-multi-assign": "off",
+    "prefer-template": "off",
+    "promise/param-names": "error",
+    "promise/always-return": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-native": "off",
+    "no-shadow": "off",
+    "linebreak-style": 0,
+    "array-bracket-spacing": "off",
+    "function-paren-newline": "off",
+    "camelcase": "off",
+    "no-nested-ternary": "off",
+    "no-case-declarations": "off",
+    "object-curly-newline": [
+      "off"
+    ],
+    "react/sort-comp": [
+      "error",
+      {
+        "order": [
+          "type-annotations",
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "components": [
+          "Label"
+        ],
+        "required": {
+          "some": [
+            "nesting",
+            "id"
+          ]
+        },
+        "allowChildren": true
+      }
+    ],
+    "react/jsx-no-bind": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/jsx-indent-props": [
+      "warn",
+      2
+    ],
+    "react/prefer-stateless-function": "off",
+    "react/forbid-prop-types": "warn",
+    "react/jsx-boolean-value": "off",
+    "react/prop-types": 2,
+    "react/no-danger": "off"
+  },
+  "globals": {
+    "__DEV__": true
+  },
+  "plugins": [
+    "import",
+    "promise",
+    "compat",
+    "react",
+    "jest"
+  ],
+  "settings": {
+    "polyfills": [
+      "promises"
+    ]
+  }
+}
